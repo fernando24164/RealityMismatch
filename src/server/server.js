@@ -35,3 +35,5 @@ wsServer.app.ws("/ws", (ws, req) => {
     }
   });
 });
+
+wsServer.app.listen(3000);
